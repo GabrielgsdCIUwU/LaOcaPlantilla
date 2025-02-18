@@ -3,10 +3,6 @@
   display: inline-flex;
 }
 
-tablero {
-  margin: auto;
-  width: 100%;
-}
 .contenedorTablero {
   font-size: 1em;
   display: grid;
@@ -76,11 +72,87 @@ tablero {
 }
 
 /* Establecer las casillas */
-
-.numero26 {
-  background-image: url("./assets/img/dado.png");
+.numero {
   background-size: cover;
   z-index: 9;
   width: 100%;
   height: 100%;
 }
+.numero26 {
+  background-image: url("./assets/img/dado.png");
+}
+
+.numero58 {
+  background-image: url("./assets/img/dead.png");
+}
+
+.numero9 {
+  background-image: url("./assets/img/goose.png");
+}
+
+.numero18 {
+  background-image: url("./assets/img/goose2.png");
+}
+
+.numero27 {
+  background-image: url("./assets/img/goose3.png");
+}
+
+.numero36 {
+  background-image: url("./assets/img/goose4.png");
+}
+
+.numero45 {
+  background-image: url("./assets/img/goose5.png");
+}
+
+.numero54 {
+  background-image: url("./assets/img/goose6.png");
+}
+
+.numero19 {
+  background-image: url("./assets/img/hotel.png");
+}
+
+.numero31 {
+  background-image: url("./assets/img/pozo.png");
+}
+
+.numero6 {
+  background-image: url("./assets/img/puente1.png");
+}
+
+.numero12 {
+  background-image: url("./assets/img/puente2.png");
+}
+
+
+/*Establecer jugadores*/
+
+
+.barco {
+  background-image: url("./assets/img/pieza_barco.png");
+  z-index: 10;
+  background-color:rgba(0, 204, 255, 0.33);
+}
+
+.caballo {
+  background-image: url("./assets/img/pieza_caballo.png");
+  z-index: 10;
+  background-color:rgba(0, 204, 255, 0.33);
+}
+
+.dedal {
+  background-image: url("./assets/img/pieza_dedal.png");
+  z-index: 10;
+  background-color:rgba(0, 204, 255, 0.33);
+}
+
+.perro {
+  background-image: url("./assets/img/pieza_perro.png");
+  z-index: 10;
+  background-color:rgba(0, 204, 255, 0.33);
+}
+
+
+
